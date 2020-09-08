@@ -1,0 +1,70 @@
+.container-1{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.flex-box-container-1,.flex-box-container-2,.flex-box-rps,.flex-box-pick-color,.flex-blackjack-row-1,
+.flex-blackjack-row-2,.flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid  black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-blackjack-row-1,.flex-blackjack-row-2{
+    background: url("https://us.123rf.com/450wm/natalt/natalt1202/natalt120200034/12447589-poker-table-felt-background-in-green-color.jpg?ver=6") ;
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1 ;
+    flex-wrap: wrap;
+    min-height: 350px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding:10px;
+}
+
+table,th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px ;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-box-container-1 div{
+        display: flex;
+        padding:10px;
+        border: 1px solid  black;
+        align-items: center;
+        margin: 0 auto;
+
+}
+
+.flex-box-container-2 img{
+    border: 1px;
+    margin: 10px auto;
+    display: flex;
+    box-shadow: 0px 10px 50px;
+}
+
+.flex-box-rps img:hover{
+box-shadow: 0px 10px 50px blue;
+}
